@@ -25,14 +25,14 @@
             width: 68%;
             display: inline-block;
         }
-        ul{
+        nav ul{
             width: 90%;
             display: inline-block;
             text-align: end;
             position: relative;
             top: 15px;
         }
-        li{
+        nav li{
             width: 50px;
             display: inline;
             padding-right: 20px;
@@ -61,7 +61,7 @@
             color: rgb(97, 97, 97);
             
         }
-        img{
+        figure img{
             width: 450px;
         }
 
@@ -98,6 +98,8 @@
             border: solid 1px;
             height: 250px;
             margin-top: 10px;
+            width: 100%;
+            display: flex;
         }
         .fo{
             height: 228px;
@@ -111,10 +113,18 @@
         }
         .logoFo2{
             height: 200px;
-            width: 60%;
+            width: 90%;
             border: solid 1px;
             margin-left: 19px;
             margin-top: 12px;
+            display: inline-block;
+        }
+        .imagem{
+            margin-top: 25px;
+            position: relative;
+            right: 190px;
+            bottom: 70px;
+            width: 600px;
         }
         .listaFo2{
             height: 200px;
@@ -122,6 +132,24 @@
             border: solid 1px;
             margin-left: 19px;
             margin-top: 12px;
+        }
+
+        .listaFo2 ul{
+            position: relative;
+            bottom: 30px;
+            left: 76px;
+            list-style-type: none;
+        }
+        .listaFo2 li{
+            margin-top: 10px;
+
+        }
+
+        h5{
+            position: relative;
+            bottom: 15px;
+            font-size: 20px;
+            text-align: center;
         }
         .contatoFo2{
             height: 120px;
@@ -137,12 +165,14 @@
             margin-left: 19px;
             margin-top: 15px;
         }
-        .imagem{
-            height: 190px;
-            width: 70%;
-            border: solid 1px;
-            margin-left: 19px;
-            margin-top: 1px;
+        .insta{
+            width: 1px;
+        }
+        .linkedin{
+            width: 1px;
+        }
+        .git{
+            width: 1px;
         }
     </style>
 
@@ -194,17 +224,29 @@
 
         <div class="fo">
             <div class="logoFo2">
-                <img src = "https://i.pinimg.com/originals/eb/f8/83/ebf8838359837d527a3056a7cb423d87.png" class="imagem">
+                <img src = "logogato-removebg-preview.png" class ="imagem">
             </div>
         </div>
 
         <div class="fo">
-            <div class="listaFo2"></div>
+            <div class="listaFo2">
+                <h5>conheça-nos</h5>
+                <ul>
+                    <li>Sobre LoveAnimais</li>
+                    <li>Raças</li>
+                    <li>comunidades</li>
+                    <li>Nossa Equipe</li>
+                </ul>
+            </div>
         </div>
 
         <div class="fo">
-            <div class="contatoFo2"></div>
-            <div class="contatoFo3"></div>
+            <div class="contatoFo2">Conheça nossas redes sociais</div>
+            <div class="contatoFo3">
+                <img src="transferir-removebg-preview (3).png" class="insta">
+                <img src="git.png" class="git">
+                <img src="linkedin.webp" class="linkedin">
+            </div>
         </div>
 
     </footer>
